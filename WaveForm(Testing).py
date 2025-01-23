@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 extracted_audio_dir = "D:/Elephants Documentation/Output_Audios/ClearingOutput/FinalClips(2 secs)"
 output_plot_dir = "D:/Elephants Documentation/Output_Audios/ClearingOutput/FinalWaveForms"
 
-# the output directory for plots exists
+# output directory for plots exists
 os.makedirs(output_plot_dir, exist_ok=True)
 
 # List of specific extracted audio clips
